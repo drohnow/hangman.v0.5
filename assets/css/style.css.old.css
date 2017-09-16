@@ -1,0 +1,167 @@
+
+body {
+	background-image: url(hip-square.png);
+}
+
+.divBanner {
+	width: 100%;
+	height: 100px;
+	background-color: White;
+	border-radius: 16px;
+	border: solid 3px Gray;
+}
+
+.divBanner h1 {
+	font-family: 'Bungee Shade';
+	font-size: 70px;
+	text-align: center;
+	line-height: 20%;
+}
+
+.pictureDiv {
+	width: 320px;
+	height: 600px;
+	margin-top: 50px;
+	margin-left: 200px;
+	border-radius: 16px;
+	background-color: White;
+	float: left;
+	display: inline-block;
+}
+
+.pictureDiv img {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	padding-top: 10px;
+	display: block;	
+} 
+
+.gameDiv {
+	width: 750px;
+	height: 600px;
+	margin-top: 50px;
+	margin-left: 100px;
+	background-color: White;
+	float: left;
+	display: inline-block;
+	border-radius: 16px;
+	text-align: center;
+	font-size: 28px;
+}
+
+.gameDiv h1 {
+	font-size: 64px;
+}
+
+.gameDiv h2  {
+	font-size: 64px;
+	padding: 0px;
+	margin: 20px;
+}
+
+.gameDiv h3  {
+	font-size: 48px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#comment {
+	font-size: 28px;
+}
+
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 9px #999;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.button:hover {background-color: Orange;}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+
+.scoreContainer {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	font-size: 22px;
+
+}
+
+
+.wins {
+	width: 45%;
+	height: 150px;
+	border: solid 2px Gray;
+	display: block;
+	float: left;
+	text-align: center;
+	border-radius: 16px;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+.wins h2 {
+	padding-top: 10px;
+	margin: 0px;
+}
+
+.losses h2 {
+	padding-top: 10px;
+	margin: 0px;
+}
+
+.wins h1 {
+	padding-top: 0px;
+	margin: 0px;
+	font-size: 64px;
+}
+
+.losses h1 {
+	padding-top: 0px;
+	margin: 0px;
+	font-size: 64px;
+}
+
+
+
+.losses {
+	width: 45%;
+	height: 150px;
+	border: solid 2px Gray;
+	display: block;
+	float: right;
+	text-align: center;
+	border-radius: 16px;
+	margin: 0 auto;
+	margin-right: 10px;
+	margin-top: 0px;
+	font-size: 20px;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman.v0.5</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+	<script type="text/javascript" src="assets/scripts/script.js"></script>
+</head>
+<body>
+
+	<div class="divBanner">
+
+		<h1>Welcome To The Gallows!</h1>
+
+	</div>
+
+	
+		<div class="pictureDiv">
+			<img src="./assets/images/hangman3.jpeg">
+			<div class="scoreContainer">
+				<h1> Scoreboard </h1>
+				<div class="wins">
+					<h2> WINS </h2>
+					<h1 id="winsUpdate"> 0 </h1>
+				</div>
+
+				<div class="losses">
+					<h2> LOSSES </h2>
+					<h1 id="lossUpdate"> 0 </h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="gameDiv">
+
+			<p id="comment">Come Play The Gallows!</p>
+
+			<input id="gStart" class="button" type="button" value="Start" onclick="gameStartF()">
+
+			<p> 
+					<h3 id="Guesses">Guesses</h3>
+						
+					<h2 id="numGuesses">10</h2>
+			</p>
+				
+			<h1 id="WORD">_ _ _ _ _</h1>
+			
+			<input id="gHere2" type="text" size="40" value="" onkeyup="myFunction(event)" autofocus>
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
